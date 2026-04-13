@@ -1,3 +1,5 @@
+$$\displaystyle H_{\mathbb{\Delta}}^{n}$$ $\displaystyle H_{{ét}}^n$ $\displaystyle H_{dR}^n$ $\displaystyle H_{sing}^n$ $\displaystyle H_{Crys}^n$
+
 [[Seminar 1 · Motivation ：Complex Hodge Theory]]
 
 [[Seminar 2 · Infinity Galois Theory]]
@@ -53,6 +55,7 @@
 [[Seminar 28 · Period Sheaves]]
 
 [[Seminar 29 · Prismatic Cohomology]]
+
 
 > [!caution]- Remark
 > remark

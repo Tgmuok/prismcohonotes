@@ -22,11 +22,9 @@
  > 其中$F(x,z)=x^3+ax^2z+bxz^2+cz^3-z$.从而z可表示为x的形式幂级数，即 $\hat{A}\cong R[[x]]\cong R[[z]]$.
  
  (Do not worry about if you are not familiar with formal schemes, as we just work with the formal power series $R[[z]]$. The group operation $E_{ns}\times_{R} E_{ns}\rightarrow E_{ns}$ indues a group operation $\hat{E}\times_{R} \hat{E} \rightarrow \hat{E}$. This gives us a continuous map of power series rings:
- 
 $$
 R[[z]]\cong\hat{A}\rightarrow \hat{A}\otimes_{R}\hat{A}\cong R[[z_{1},z_{2}]]
 $$
-
 Note that any continuous map $R[[z]]\rightarrow R[[z_{1},z_{2}]]$ is determined by the image of $z$ (Denote the image of $z$ by $F(z_{1},z_{2})$).Similarly, there is an inverse may $\hat{E}\rightarrow \hat{E}$,which corresponds to a continuous map of power series rings $R[[z]]\rightarrow R[[z]]$, and donote the image of $z$ by $i(z)$.
 
 >[!attention]- Remark
@@ -118,7 +116,6 @@ The above analysis leads us to consider the notion of a $formal \ group \ law$.
 >
 >· [[#^69156c|lemma 4.6]]是微积分中[反函数存在定理]的形式幂级数版本：即无常数项的形式幂级数只要一次项系数可逆（对应形式导函数不为0），就存在唯一的形式逆幂级数.
 
-
 >[!tips]+ lemma 4,7
 >
 >Let $F$ be a formal group over $R$, and let m be an integer that is invertible in $R$. Then $[m]$ is an automorphism.
@@ -139,7 +136,6 @@ If $F$ is a formal group, we will denote by $F(\mathfrak{m}_K)$ the set $\mathfr
 $$
 x +_F y = F(x,y).
 $$
-
 > [!example]+ Example 4.8  
 > 
 > We can identify $\widehat{\mathbb{G}}_a(\mathfrak{m}_K)$ with the additive group $\mathfrak{m}_K$, and there is an exact sequence 
@@ -176,7 +172,7 @@ $$
 
 >[!attention]- Remark
 >
->Skipping of  lemma 4.11:借助于lemma 4.7：如果整数 $m\in \mathcal{O}_K$中可逆，则同态 $[m]$ 是形式群的自同构，从而 $[m](x)=0$ 当且仅当 $x=0$. 利用反证法，设 $x$ 的阶为$m$，可以证明 $m$ 不能有与 $char(k)$ 互素的素因子，即 $m$ 必须是 $p$ 的幂.
+>Skipping of  lemma 4.11:借助于 [[#^dd866a|lemma 4,7]]：如果整数 $m\in \mathcal{O}_K$中可逆，则同态 $[m]$ 是形式群的自同构，从而 $[m](x)=0$ 当且仅当 $x=0$. 利用反证法，设 $x$ 的阶为$m$，可以证明 $m$ 不能有与 $char(k)$ 互素的素因子，即 $m$ 必须是 $p$ 的幂.
 
 > [!notes]+ Def 4.12 
 > 
@@ -300,7 +296,6 @@ $$
 >  Let $F$ be a formal group over $\mathcal{O}_K$, and let $x \in F(\mathfrak{m}_K)$. Suppose that $x$ has exact order $p^n$, meaning that $p^n x = 0$ but $p^{n-1}x \neq 0$. Then $|x| \geq |p|^{1/(p^n - p^{n-1})}$.
 >  
 > > Pf. We use induction on $n$. 
->>
 > > $\bf{Step \ 1 :}$ Suppose $n = 1$. Let $G(T)=pH(x)+I(x^p)$ be as in [[#^d4857d|Corollary 4.17]]. Then $x$ satisfies $G(x)= 0$. The linear term of $G(x)$ is $px$ by [[#^dd866a|lemma 4.7]]. 
 > > 
 > > All other terms with exponent not divisible by $p$ (i.e. $pH(x)-px$) are also multiples of $p$, so they have strictly smaller absolute values. 

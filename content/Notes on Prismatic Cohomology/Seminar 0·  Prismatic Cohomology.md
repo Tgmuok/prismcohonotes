@@ -1,4 +1,4 @@
-$$\displaystyle H_{\mathbb{\Delta}}^{n}$$ $\displaystyle H_{{ét}}^n$ $\displaystyle H_{dR}^n$ $\displaystyle H_{sing}^n$ $\displaystyle H_{Crys}^n$
+$\displaystyle H_{\mathbb{\Delta}}^{n}$ $\displaystyle H_{{ét}}^n$ $\displaystyle H_{dR}^n$ $\displaystyle H_{sing}^n$ $\displaystyle H_{Crys}^n$
 
 [[Seminar 1 · Motivation ：Complex Hodge Theory]]
 

@@ -48,7 +48,11 @@
 > >  
 > >  (5) **Base Change** 
 > >  
-> >  Let $(A,I) \to (B,J)$ be a map of bounded prisms, and let $Y = X \times_{\mathrm{Spf}(A/I)} \mathrm{Spf}(B/J)$. Then the natural map induces an isomorphism $$ \mathrm{RT}_\Delta(X/A) \widehat{\otimes}_A^L B \cong \mathrm{RT}_\Delta(Y/B), $$ where the completion on the left is the derived $(p,J)$-adic completion.
+> >  Let $(A,I) \to (B,J)$ be a map of bounded prisms, and let $Y = X \times_{\mathrm{Spf}(A/I)} \mathrm{Spf}(B/J)$. Then the natural map induces an isomorphism
+> >$$
+> >\mathrm{RT}_\Delta(X/A) \widehat{\otimes}_A^L B \cong \mathrm{RT}_\Delta(Y/B),
+> >$$
+> >where the completion on the left is the derived $(p,J)$-adic completion.
 > >
 > >   (6) **Image of $\phi$**
 > >

@@ -3,7 +3,7 @@
 
 >[!notes]+ Definition 5.1.
 >
->Let $(E,O)$, $(E',O')$ be elliptic curves over $K$. A morphism $(E,O) \to (E',O')$ is a morphism $E \to E'$ sending $O$ to $O'$.
+Let $(E,O)$, $(E',O')$ be elliptic curves over $K$. A morphism $(E,O) \to (E',O')$ is a morphism $E \to E'$ sending $O$ to $O'$.
 
 > [!tip]+ Lemma 5.2
 > 

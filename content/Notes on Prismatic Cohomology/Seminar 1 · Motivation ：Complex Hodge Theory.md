@@ -131,14 +131,14 @@ $$
 H^i_{\text{dR}}(X). 
 $$
 
-> [!danger]+ Them 1.4 (Scholze, [[Sch13]] )
+> [!danger]+ Them 1.4 (Scholze,  [[Sch13]])
 > 
 > If $X$ is proper and smooth, then there is a Galois equivariant isomorphism 
->$$ 
->H^i_{\text{dR}}(X) \otimes_K B_{\text{dR}} \cong H^i_{\text{ét}}(X_{\overline{K}}, \mathbb{Z}_p) \otimes_{\mathbb{Z}_p} B_{\text{dR}}. 
->$$ 
->
->Here, $B_{\text{dR}}$ is the fraction field of $B^+_{\text{dR}}$.
+> $$ 
+> H^i_{\text{dR}}(X) \otimes_K B_{\text{dR}} \cong H^i_{\text{ét}}(X_{\overline{K}}, \mathbb{Z}_p) \otimes_{\mathbb{Z}_p} B_{\text{dR}}. 
+> $$ 
+> 
+> Here, $B_{\text{dR}}$ is the fraction field of $B^+_{\text{dR}}$.
 
 If $X$ comes from an algebraic variety, then this isomorphism was previously proved by Tsuji [Tsu99] and Faltings [Fal02]. There is also a version of the comparison theorem for certain non-proper varieties, including $\mathbb{A}^1_K \setminus {0}$, due to Li–Pan [LP19].
 

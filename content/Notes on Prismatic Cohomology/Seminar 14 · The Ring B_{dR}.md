@@ -65,14 +65,20 @@ $$
 > There is a natural Galois-equivariant inclusion $\overline{K} \hookrightarrow B_{\mathrm{dR}}$.
 >
 >>*Proof.* Let $\overline{k}$ be the residue field of $\overline{K}$. There is a natural inclusion $\overline{k} \hookrightarrow \mathcal{O}_{C^\flat}$ sending $x \mapsto [x^{p^{-n}}]$, which induces inclusions $W(\overline{k}) \hookrightarrow A_{\mathrm{inf}}$, $W(\overline{k})[1/p] \hookrightarrow B_{\mathrm{dR}}^+$. Any $x \in \overline{K}$ satisfies an irreducible monic polynomial over $W(\overline{k})[1/p]$. This polynomial splits completely in $C$, the residue field of $B_{\mathrm{dR}}^+$, so it also splits in $B_{\mathrm{dR}}^+$ by Hensel's lemma. So there is a unique inclusion $\overline{K} \hookrightarrow B_{\mathrm{dR}}^+$ that makes the following diagram commute.
+>>```tikz
+>>\usepackage{tikz-cd}
 >>
->>$$
->>\begin{array}{ccccc}
->>W(\overline{k})[1/p] &&\rightarrow&& B_{\mathrm{dR}}^+\\
->>\downarrow &&\nearrow&& \downarrow \\
->>\overline{K} &&\rightarrow&& C
->>\end{array}
->>$$
+>>\begin{document}
+>>\begin{tikzcd}
+>>
+>> {W(\overline{k})[1/p]} \arrow[rr, hook] \arrow[dd, hook] &  & B_{\mathrm{dR}}^+ \arrow[dd, two heads] \\
+>>&  & \\
+>>\overline{K} \arrow[rr, hook] \arrow[rruu, dashed, hook] &  & C  
+>>
+>>\end{tikzcd}
+>>
+>>\end{document}
+>>```
 
 > [!abstract]+ Prop 14.5
 >
